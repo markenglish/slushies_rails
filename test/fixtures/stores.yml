@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  store_code: MyString
+  product_url: MyString
+  is_active: false
+  scrape_profile: MyText
+
+two:
+  name: MyString
+  store_code: MyString
+  product_url: MyString
+  is_active: false
+  scrape_profile: MyText

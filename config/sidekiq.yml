@@ -1,0 +1,8 @@
+:concurrency: 5
+:queues:
+  - default
+
+:schedule:
+  scrape_all_stores:
+    cron: "*/5 * * * *"
+    class: "ScrapeAllStoresJob"
