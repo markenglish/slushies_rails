@@ -1,25 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple rails app to scrape kmart stores for the slushie machine thats never in stock, keeps a history of stock levels and provides an api to query the data
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# slushies_rails
+Uses node/playwright for the headless scraping and https://ntfy.sh/ for notifications to mobiles for speedy action if one ever does turn up
